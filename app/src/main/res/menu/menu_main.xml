@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.thefuzzybrain.ishan0445.ribbit.MainActivity">
+
+    <item
+        android:id="@+id/editFriends"
+        android:title="Edit Friends"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/friends"
+        android:title="Friend List"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_social_people"
+        />
+    <item
+        android:id="@+id/refresh"
+        android:title="Refresh"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_action_cached"
+        />
+
+</menu>

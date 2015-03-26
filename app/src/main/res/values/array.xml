@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="items">
+        <item name="TakePicture">Take Picture</item>
+        <item name="TakeVideo">Take Video</item>
+        <item name="ChoosePicture">Choose Picture</item>
+        <item name="ChoosePicture">Choose Video</item>
+    </string-array>
+</resources>
